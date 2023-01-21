@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/joshwc-character-creator/static/css/main.cf961be2.chunk.css",
+    "main.css": "/joshwc-character-creator/static/css/main.053e96ea.chunk.css",
     "main.js": "/joshwc-character-creator/static/js/main.4a9b4bfe.chunk.js",
     "main.js.map": "/joshwc-character-creator/static/js/main.4a9b4bfe.chunk.js.map",
     "runtime-main.js": "/joshwc-character-creator/static/js/runtime-main.22fd3d45.js",
@@ -8,13 +8,13 @@
     "static/js/2.73ad5a88.chunk.js": "/joshwc-character-creator/static/js/2.73ad5a88.chunk.js",
     "static/js/2.73ad5a88.chunk.js.map": "/joshwc-character-creator/static/js/2.73ad5a88.chunk.js.map",
     "index.html": "/joshwc-character-creator/index.html",
-    "static/css/main.cf961be2.chunk.css.map": "/joshwc-character-creator/static/css/main.cf961be2.chunk.css.map",
+    "static/css/main.053e96ea.chunk.css.map": "/joshwc-character-creator/static/css/main.053e96ea.chunk.css.map",
     "static/js/2.73ad5a88.chunk.js.LICENSE.txt": "/joshwc-character-creator/static/js/2.73ad5a88.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.22fd3d45.js",
     "static/js/2.73ad5a88.chunk.js",
-    "static/css/main.cf961be2.chunk.css",
+    "static/css/main.053e96ea.chunk.css",
     "static/js/main.4a9b4bfe.chunk.js"
   ]
 }
