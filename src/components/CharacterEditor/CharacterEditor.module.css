@@ -80,6 +80,6 @@
     inset: 0;
     
     height: 100vh;
-    width: fit-content;
+    /* width: fit-content; */
   }
 }
