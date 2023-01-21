@@ -34,13 +34,19 @@
 
 .controlColumn {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 
 
 @media screen and (max-width: 600px) {
   .characterEditor {
-    padding-block: 100vh 0;
+    /* padding-block: 100vh 0; */
+    height: 100%;
+    /* padding: 0; */
+    display: flex;
   }
   
   .header {
@@ -55,19 +61,25 @@
     border: 0;
   }
 
+  .maxWidthWrapper {
+    margin-top: auto;
+    max-width: 100%;
+  }
+
   .controlColumn {
-    width: auto;
+    width: fit-content;
+    max-width: 100%;
     white-space: nowrap;
     overflow-x: scroll;
     isolation: isolate;
 
-    margin-top: -170px;
+    flex-direction: row;
   }
 
   .characterWrapper {
     inset: 0;
     
-    height: 100%;
+    height: 100vh;
     width: fit-content;
   }
 }
