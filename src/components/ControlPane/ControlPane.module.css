@@ -10,6 +10,17 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+
+  
+}
+
+@media screen and (max-width: 600px) {
+  .controlPane {
+    display: inline-block;
+    margin-right: 32px;
+    max-width: 100%;
+    margin: 0;
+  }
 }
 
 .title {

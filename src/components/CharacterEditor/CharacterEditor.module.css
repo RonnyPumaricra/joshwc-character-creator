@@ -8,6 +8,7 @@
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -24,7 +25,49 @@
 }
 
 .characterWrapper {
+  height: calc(100% - 128px);
+  min-height: 500px;
+  position: fixed;
+  left: 60%;
+  top: 100px;
 }
 
 .controlColumn {
+  width: 50%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .characterEditor {
+    padding-block: 100vh 0;
+  }
+  
+  .header {
+    /* Visually hidden */
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+  }
+
+  .controlColumn {
+    width: auto;
+    white-space: nowrap;
+    overflow-x: scroll;
+    isolation: isolate;
+
+    margin-top: -170px;
+  }
+
+  .characterWrapper {
+    inset: 0;
+    
+    height: 100%;
+    width: fit-content;
+  }
 }
